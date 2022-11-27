@@ -1,0 +1,17 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(17,17,17);
+  color: white;
+  height: 3 0rem;
+  padding-bottom: 50px;
+
+
+  &__form-container{
+      @media (max-width: 558px) {
+        max-width: 20rem !important;
+    }
+  }
+}

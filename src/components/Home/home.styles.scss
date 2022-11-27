@@ -1,0 +1,81 @@
+.home-hero {
+  background-color: black;
+  background-position: center;
+  height: 100vh;
+  max-height: 120rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  // @media (max-width: 925px) {
+  //   min-height: 45rem;
+  // }
+
+  // @media (max-width: 724px) {
+  //   min-height: 30rem;
+  // }
+
+  // @media (max-width: 570px) {
+  //   min-height: 38rem;
+  // }
+
+  // @media (max-width: 480px) {
+  //   min-height: 35rem;
+  // }
+
+  .heading-primary {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #f5f5f1;
+    font-weight: 800;
+
+    @media (max-width: 724px) {
+      font-size: 3rem;
+    }
+  }
+
+  &__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90rem;
+    width: 92%;
+    color: #f5f5f1;
+  }
+
+  &__info {
+    margin: 3rem 8rem 0 8rem;
+    max-width: 80rem;
+
+    @media (max-width: 480px) {
+      margin: inherit;
+    }
+
+    .text-primary {
+      font-size: 1.2rem;
+      text-align: center;
+      width: 100%;
+      line-height: 1.6;
+    }
+  }
+
+  &__cta {
+    margin-top: 5rem;
+    text-align: center;
+
+    .linkedin-button {
+      width: 200px;
+      height: 60px;
+    }
+
+    span {
+      font-weight: 700;
+      font-size: large;
+    }
+  }
+}
