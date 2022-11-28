@@ -27,6 +27,11 @@
     order: 1;
     width: 40%;
     max-width: 50rem;
+
+    @media (max-width: 464px) {
+      width: 100%;
+      margin-bottom: 10px;
+    }  
   }
 
   &__row-2 {

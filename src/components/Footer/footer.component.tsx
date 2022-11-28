@@ -18,7 +18,7 @@ export const Footer = (props: Props) => {
           </div>
           <div className="main-footer__row main-footer__row-2">
             <h2 className="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
+              <span className="font-bold">Social</span>
               <div className="main-footer__social-cont">
                 <SocialIcon
                   className="mr-3 mt-2"
