@@ -18,9 +18,8 @@ export const Contact = (props: Props) => {
   const handleSubmit = (e: any) => {
     setIsSending(true);
     e.preventDefault();
-    console.log(e);
     if (!name || !fromEmail || !message) {
-      toast.error("Preencha todos os campos do formulário", {
+      toast.error("Fill all form fields!", {
         position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
@@ -48,7 +47,7 @@ export const Contact = (props: Props) => {
       )
       .then(
         (result) => {
-          toast.success("Email enviado com sucesso!", {
+          toast.success("Email successfully sent!", {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,
@@ -61,7 +60,7 @@ export const Contact = (props: Props) => {
           setIsSending(false);
         },
         (error) => {
-          toast.error("Erro ao enviar email!", {
+          toast.error("Error sending email!", {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,

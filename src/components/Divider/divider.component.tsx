@@ -6,7 +6,6 @@ type Props = {
 }
 
 export const Divider = ({isCentered=true, className}: Props) => {
-  console.log({className})
   return (
     <div className={`${className} h-1 w-20 border-amber-400 rounded-full bg-amber-400 ${isCentered ? 'mx-auto' : ''}`} />
   )
