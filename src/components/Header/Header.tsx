@@ -66,26 +66,3 @@ export function Header() {
     </nav>
   );
 }
-
-{/* <a href="#" className="flex items-center">
-          <img
-            src="./images/sheep.svg"
-            className="bg-white h-6 mr-3 sm:h-9 rounded-full py-1 px-1"
-            alt="Flowbite Logo"
-          />
-          <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-            BrunoC
-          </span>
-        </a> */}
-
-// {pages.map((page) => (
-//   <li key={page.text}>
-//     <a
-//       href={page.ref}
-//       className="block py-2 pl-3 pr-4 font-bold text-white bg-amber-300 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
-//       aria-current="page"
-//     >
-//       {page.text}
-//     </a>
-//   </li>
-// ))}
